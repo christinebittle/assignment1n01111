@@ -9,7 +9,14 @@ namespace assignment1n01111.Controllers
 {
     public class RouteController : ApiController
     {
-        // GET : api/Route/Method1 -> "method 1"
+
+        /// <summary>
+        /// Receives a GET request to Method 1 and provides and output
+        /// </summary>
+        /// <returns>"method 1"</returns>
+        /// <example>
+        /// GET : api/Route/Method1 -> "method 1"
+        /// </example>
         [HttpGet]
         public string Method1()
         {
